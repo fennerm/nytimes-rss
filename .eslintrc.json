@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "eslint-plugin-node", "compat"],
+  "extends": ["eslint:recommended", "prettier", "plugin:@typescript-eslint/eslint-recommended"],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "no-unused-vars": "off",
+    "no-self-assign": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_"
+      }
+    ]
+  }
+}

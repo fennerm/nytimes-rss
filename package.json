@@ -1,0 +1,44 @@
+{
+  "name": "natera-rss-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/eb-garamond": "^4.5.11",
+    "@fontsource/open-sans": "^4.5.14",
+    "date-fns": "^2.29.3",
+    "framer-motion": "^10.3.2",
+    "pino": "^8.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.42.1",
+    "@typescript-eslint/parser": "^5.42.1",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-compat": "^4.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "pino-pretty": "^9.1.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0",
+    "vite-tsconfig-paths": "^4.0.7"
+  }
+}
