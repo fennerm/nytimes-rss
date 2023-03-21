@@ -18,6 +18,7 @@ LOG = logging.getLogger(__name__)
 class NYTimesRSSView(APIView):
     @method_decorator(cache_page(60 * 15))
     def get(self, request: HttpRequest, format: None = None) -> Response:
+        """Fetch the NY times RSS feed."""
         raw_feed = fetch_rss_feed("https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml")
         feed = parse_rss(raw_feed)
         return Response(asdict(feed), status=status.HTTP_200_OK)
