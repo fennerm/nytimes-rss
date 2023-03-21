@@ -14,9 +14,6 @@ export default defineConfig({
       input: {
         main: path.resolve("./frontend/js/index.tsx"),
       },
-      output: {
-        chunkFileNames: undefined,
-      },
     },
   },
   root: path.resolve("./frontend"),
