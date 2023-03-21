@@ -18,7 +18,7 @@ export const Header = (props: FlexProps): ReactElement => {
       {...props}
     >
       <Flex justify="space-between" padding="10px 15px">
-        <ReadableDate date={new Date()} dateFormat="eee, d MMM Y" />
+        <ReadableDate textTransform="capitalize" date={new Date()} dateFormat="eee, d MMM Y" />
         <Logo />
         <LocalePicker />
       </Flex>
